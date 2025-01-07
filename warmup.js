@@ -16,6 +16,11 @@ console.log('monkeyTrouble results:');
 console.log(monkeyTrouble(true, true)); //expect true
 console.log(monkeyTrouble(true, false)); //expect false
 console.log(monkeyTrouble(false, true)); //expect false
-console.log(monkeyTrouble(false, false)); //expect 
+console.log(monkeyTrouble(false, false)); //expect true
+
+const sumDouble = (a, b) => {
+    if(a === b) return (a + b) *2;
+    else return a + b;
+}
 
 
