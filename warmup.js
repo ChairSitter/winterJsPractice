@@ -23,4 +23,18 @@ const sumDouble = (a, b) => {
     else return a + b;
 }
 
+const diff21 = (n) => {
+    if(n < 21){
+      return 21-n;
+    } else {
+      return (n - 21) *2;
+    }
+}
+
+const parrotTrouble = (talking, hour) => {
+    return talking && ((hour < 7) || (hour > 20))
+}
+
+
+
 
