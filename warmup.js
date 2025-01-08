@@ -51,6 +51,15 @@ const posNeg = (a, b, negative) => {
     }
 }
 
+const notString = (str) => {
+    if(str.substring(0, 3) === 'not'){
+      return str;
+    } else {
+      str = 'not ' + str;
+      return str;
+    }
+}
+
 
 
 
