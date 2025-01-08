@@ -35,6 +35,10 @@ const parrotTrouble = (talking, hour) => {
     return talking && ((hour < 7) || (hour > 20))
 }
 
+const makes10 = (a, b) => {
+    return (a === 10) || (b === 10) || (a + b === 10)
+}
+
 
 
 
